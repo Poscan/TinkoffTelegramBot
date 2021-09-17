@@ -20,7 +20,7 @@ namespace telegramBot
         static void Main(string[] args)
         {
             _userTokenDictionary = new Dictionary<long, string>();
-            var bot = new TelegramBotClient("1967725772:AAE-kXZm5clBSJz7Fo5tQI_XGwqHIsCXG9s");
+            var bot = new TelegramBotClient("Сюда вставить telegram токен");
 
             using var cancellationTokenSource = new CancellationTokenSource();
 
